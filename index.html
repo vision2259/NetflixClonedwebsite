@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+        
+
+    <link rel="stylesheet" href="./main.css">
+
+</head>
+
+<body>
+
+    <!-- begin main class  -->
+
+    <main>
+        <section class="header">
+            <section class="container-fluid ">
+                <section class="row main-header ">
+                    <section class="col-12 col-sm col-md col-lg">
+                        <span class="netflixLOGO text-danger fw-bolder  bg-transparent ">NETFLIX</span>
+
+                        <div class="languageLogin d-flex flex-row justify-content-end px-5">
+
+                            <!-- <div class="language">English</div> -->
+                            <div class="signInLanguage d-flex flex-row  ">
+                                <div class="row pb-4">
+                                    <div class="col col-sm col-md col-lg m-e-2 mx-5 ">
+                                        <div class="form-group">
+                                            <select
+                                                class="form-select bg-transparent text-white  me-5 py-1 text-center ">
+                                                <option value="English">English</option>
+                                                <option value="option1">Zulu</option>
+                                                <option value="option2">Spanish</option>
+                                                <option value="option3">Hindi</option>
+                                                <option value="English">Spanish</option>
+                                                <option value="option1">French</option>
+                                                <option value="option2">Afrikaans</option>
+                                                <option value="option3">Portuquese</option>
+                                                <option value="option3">Russian</option>
+                                            </select>
+                                        </div>
+
+                                    </div>
+                                    <div class="signIn col col-xl-4 col-md-6 col-sm-2">
+
+                                        <button type="button" data-bs-toggle="modal" data-bs-target="#loginModal" class="btn btn-danger w-50 h-50  px-4 py-2">Sign
+                                            in</button>
+
+                                                                           </div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title text-white fs-3" id="loginModalLabel">Sign in</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <!-- Your login form goes here -->
+          <!-- Replace the form elements below with your actual login form -->
+          <form class="mx-3">
+            <div class="mb-3">
+              <label for="username" class="form-label"></label>
+              <input type="text" class="form-control inputOne" id="username" placeholder="Username" required>
+            </div>
+            <div class="mb-3">
+              <label for="password" class="form-label"></label>
+              <input type="password" class="form-control inputOne" id="password" placeholder="Password" required>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="button2 btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="button2 btn btn-danger w-45">Sign in</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+
+
+
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                        </div>
+
+                        <section
+                            class="d-flex  justify-content-center align-content-center pb-lg-5 col-lg-10 col-md-3 col-sm-2">
+
+                            <div class="row">
+                                <div class="col col-sm col-md col-lg pb-5">
+                                    <p class="unlimitedTVshows fw-bolder text-white ">Unlimited movies, TV shows,
+                                        and more</p>
+                                    <p class="WatchCancel fs-4  text-white text-center ">Watch anywhere. Cancel anytime
+                                    </p>
+                                    <p class="membership fs-5  text-white  ">Ready to watch? Enter your email to create
+                                        or restart your membership.</p>
+
+                                    <div class="emailAddress-getStarted d-flex flex-row  ps-4">
+                                        <div class="col-md-6">
+                                            <!-- Use col-md-6 to make it half the width on medium screens and larger -->
+                                            <input type="email"
+                                                class="emailAddress bg-dark-subtle  form-control opacity-50 bg-transparent rounded-1 border-3 "
+                                                placeholder="Email address" aria-label="email address">
+                                        </div>
+
+                                        <button type="button"
+                                            class="getStarted text-white fs-5 fw-bolder bg-opacity-100 rounded-1  btn btn-outline-none bg-danger">Get
+                                            Started <i class="fas fa-chevron-right ml-2"></i>
+                                        </button>
+                                    </div>
+
+                                </div>
+                            </div>
+                            </div>
+                        </section>
+                    </section>
+
+                </section>
+
+            </section>
+
+        </section>
+
+
+        <!-- second section of the page -->
+        <section class="container-fluid section-main d-flex flex-row  mt-lg-1 bg-black  ">
+            <div class="row d-flex ">
+                <div class="col-12 d-flex flex-column justify-content-center pt-4 article">
+                    <div class="section2 d-flex flex-column pb-4 align-content-center">
+                        <p class="enjoyTV fw-bolder  text-white  ">Enjoy on your TV</p>
+
+                        <div>
+                            <p class="2class fs-4 fw-bold text-white my-2  ">Watch on Smart TVs, Playstation, Xbox,</p>
+                            <p class="2class fs-5 fw-bold text-white">Chromecast, Apple TV, Blu-ray players, and more.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col mediaImage">
+                <img src="./image/image of a media player.png" alt="" srcset="" class="mediaImage">
+            </div>
+        </section>
+
+
+        <!-- end of second section of page -->
+
+
+
+
+
+
+
+        <!-- beginning of footer section -->
+
+        <section class="container-fluid mt-lg-2 bg-black ">
+            <div class="row">
+                <div class="col">
+                    <div class="questions pt-xl-5 pt-sm-5 pt-sm-5  text-white-50  ">Questions? Call <a
+                            href="#">1-844-505-2993 </div>
+
+
+                    <div class="last-footer flex-row list-group justify-content-around  py-3 text-white fw-lighter mb-5 ">
+                        <div class="list-group ">
+                            <ul>
+                                <li class="list-group-item "><a href="https://help.netflix.com/en/node/412"
+                                        class="text-white-50  bg-black  ">FAQs</a></li>
+                                <li class="list-group-item "><a
+                                        href="https://ir.netflix.net/ir-overview/profile/default.aspx"
+                                        class="text-white-50  bg-black  ">Investor
+                                        Relations</a></li>
+                                <li class="list-group-item "><a href="#" class="text-white-50  bg-black  ">Buy Gift
+                                        Cards</a></li>
+                                <li class="list-group-item "><a href="#" class="text-white-50  bg-black  ">Cookie
+                                        Preferences</a></li>
+                                <li class="list-group-item "><a href="#" class="text-white-50  bg-black  ">Legal
+                                        Notices</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="list-group  ">
+                            <ul>
+                                <li class="list-group-item "><a href="https://help.netflix.com/en/"
+                                        class="text-white-50  bg-black">Help Center</a>
+                                </li>
+                                <li class="list-group-item "><a href="#" class="text-white-50  bg-black">Jobs</a></li>
+                                <li class="list-group-item "><a href="#" class="text-white-50  bg-black">Ways to
+                                        Watch</a></li>
+                                <li class="list-group-item "><a href="#" class="text-white-50  bg-black">Corporate
+                                        Information</a></li>
+                                <li class="list-group-item "><a href="#" class="text-white-50  bg-black">Only on
+                                        Netflix</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="list-group ">
+                            <ul>
+                                <li class="list-group-item "><a href="#" class="text-white-50  bg-black">Account</a>
+                                </li>
+                                <li class="list-group-item "><a href="#" class="text-white-50  bg-black">Netflix
+                                        Shop</a></li>
+                                <li class="list-group-item "><a href="#" class="text-white-50  bg-black">Terms of
+                                        Use</a></li>
+                                <li class="list-group-item "><a href="#" class="text-white-50  bg-black">Contact Us</a>
+                                </li>
+                                <li class="list-group-item "><a href="#" class="text-white-50  bg-black multi-line">Do
+                                        Not Sell or Share My Personal Information</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="list-group ">
+                            <ul>
+                                <li class="list-group-item "><a href="#" class="text-white-50  bg-black">Media
+                                        Center</a></li>
+                                <li class="list-group-item "><a href="#" class="text-white-50  bg-black">Redeem Gift
+                                        Cards</a></li>
+                                <li class="list-group-item "><a href="#" class="text-white-50  bg-black">Privacy</a>
+                                </li>
+                                <li class="list-group-item "><a href="#" class="text-white-50  bg-black">Speed Test</a>
+                                </li>
+                                <li class="list-group-item "><a href="#" class="text-white-50  bg-black">Ad Choices</a>
+                                </li>
+                            </ul>
+                        </div>
+
+
+                    </div>
+                    <!-- footer - choose language -->
+                    <div class="form-group   d-flex flex-row">
+                        <select class="form-select footer-language  text-center ">
+                            <option value="English">English</option>
+                            <option value="option1">Zulu</option>
+                            <option value="option2">Spanish</option>
+                            <option value="option3">Hindi</option>
+                            <option value="English">Spanish</option>
+                            <option value="option1">French</option>
+                            <option value="option2">Afrikaans</option>
+                            <option value="option3">Portuquese</option>
+                            <option value="option3">Russian</option>
+                        </select>
+                    </div>
+                    <!-- end footer choose language -->
+
+
+                </div>
+            </div>
+
+        </section>
+
+        <!-- end of footer section  -->
+
+    </main>
+    <!-- end main class -->
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

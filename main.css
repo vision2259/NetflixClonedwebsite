@@ -1,0 +1,257 @@
+   @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+   * {
+     padding: 0;
+     margin: 0;
+     box-sizing: content-box;
+     font-family: Poppins;
+
+   }
+
+   .main-header {
+     background-image: linear-gradient(transparent, #080101f9), url(./image/netflix\ background\ pic.jpg);
+
+   }
+
+   .getStarted {
+     margin-right: 40px;
+     width: 120px;
+
+   }
+
+
+
+   .netflixLOGO {
+     padding-left: 9rem;
+     font-size: 4rem;
+     font-weight: bolder;
+   }
+
+   div > .SelectLanguage {
+     margin-top: 100px;
+     width: 100%;
+     
+   }
+
+
+
+
+   div>.emailAddress-getStarted>input,
+   .emailAddress {
+     width: 80%;
+     height: 50px;
+     margin-left: 70px;
+
+   }
+
+
+   .getStarted {
+     width: 25%;
+     opacity: 5;
+   }
+
+   .membership {
+     text-align: center;
+   }
+
+   .emailAddress-getStarted {
+     margin-left: 70px;
+     gap: 20px;
+
+   }
+
+.inputOne{
+  width: 80%;
+  height: 50%;
+  padding-left: 25px;
+  
+}
+
+.inputOne, #inputOne{
+  height: 40px;
+}
+
+
+ 
+   .section2 {
+     padding-left: 160px;
+
+   }
+
+
+   .mediaImage {
+     padding-left: 100px;
+     width: 27rem;
+     margin: 40px 10px;
+     margin-right: 20rem;
+
+
+   }
+
+
+   section>div>p,
+   .enjoyTV {
+     font-size: 50px;
+     padding-bottom: 45px;
+   }
+
+
+   .unlimitedTVshows {
+     font-size: 50px;
+
+   }
+
+   .questions {
+     padding-left: 150px;
+     padding-top: 65px;
+
+   }
+
+   .list-group-item {
+     background-color: #000;
+     border: none;
+     margin: 0.5px;
+   }
+
+   .list-group {
+     background-color: #000;
+     font-size: 14px;
+     padding-right: 30px;
+
+   }
+
+   .list-group-item.multi-line {
+     height: auto;
+   }
+
+
+   .list-group-item.multi-line a:link {
+     white-space: normal;
+
+
+   }
+
+
+   .footer-language {
+     height: 30px;
+     width: 8rem;
+     margin-bottom: 100px;
+     margin-left: 150px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 8px;
+    
+
+   }
+
+   .WatchCancel {
+    font-size: 24px; 
+  }
+
+ 
+ 
+
+
+
+
+  @media screen and (min-width:300px) and (max-width:768px){
+
+    .netflixLOGO {
+      display: flex;
+      justify-content:start;
+      padding:10px 50px;
+      text-align: center;
+      font-size: 2rem;
+      font-weight: bolder;
+    }
+ 
+    .main-header {
+      background-image: linear-gradient(transparent, #080101f9), url(./image/netflix\ background\ pic.jpg);
+      background-size: 90%;
+    }
+
+
+    .unlimitedTVshows{
+      font-size:13px;
+      padding-right: 100px;
+      display: flex;
+      flex-shrink:25px ;
+      justify-content: center; 
+         
+        
+    }
+
+    .last-footer{
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      flex-wrap: nowrap;
+      
+        }
+      
+   
+  }
+
+  
+  @media screen and (min-width:768) and (max-width:992){
+
+    .netflixLOGO {
+      display: flex;
+      justify-content:start;
+      padding:10px 50px;
+      text-align: center;
+      font-size: 2rem;
+      font-weight: bolder;
+    }
+ 
+    .main-header {
+      background-image: linear-gradient(transparent, #080101f9), url(./image/netflix\ background\ pic.jpg);
+      background-size: 90%;
+    }
+
+
+    .unlimitedTVshows{
+      font-size:13px;
+      padding-right: 100px;
+      display: flex;
+      flex-shrink:25px ;
+      justify-content: center; 
+         
+        
+    }
+   
+  }
+ 
+
+  @media screen and (min-width:992) and (max-width:1200){
+
+    .netflixLOGO {
+      display: flex;
+      justify-content:start;
+      padding:10px 50px;
+      text-align: center;
+      font-size: 2rem;
+      font-weight: bolder;
+    }
+ 
+    .main-header {
+      background-image: linear-gradient(transparent, #080101f9), url(./image/netflix\ background\ pic.jpg);
+      background-size: 90%;
+    }
+
+
+    .unlimitedTVshows{
+      font-size:13px;
+      padding-right: 100px;
+      display: flex;
+      flex-shrink:25px ;
+      justify-content: center; 
+         
+        
+    }
+    
+  }
+
+   
+  
